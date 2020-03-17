@@ -169,3 +169,10 @@ Stash is basically used to manage temporary content save, retrive, delete etc
 11. **Delete the branch on github**
 ```git push origin :[name_of_your_new_branch]```
 -----------------------------------------------------------------------------------
+
+## Additional Commands
+
+1. **Delete sensitive files from all commit history**
+```git filter-branch --force --index-filter "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" --prune-empty --tag-name-filter cat -- --all```
+```git push origin --force --all```
+-----------------------------------------------------------------------------------
