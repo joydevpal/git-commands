@@ -86,13 +86,11 @@ git branch branchname [ex. develop] (required atleast one commit to work properl
 
 Stash is basically used to manage temporary content save, retrive, delete etc
 
-**save stash**
-
-```git stash save "stash name"```
+### **save stash** </br>
+> ```git stash save "stash name"```
 -----------------------------------------------------------------------------------
-**show stash list**
-
-```git stash list```
+**show stash list** </br>
+> ```git stash list```
 -----------------------------------------------------------------------------------
 **retrieve stash and apply to file**
 ```git stash apply stashid```
