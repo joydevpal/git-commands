@@ -153,7 +153,7 @@ Stash is basically used to manage temporary content save, retrive, delete etc
 
 **Fetch and checkout a specific remote branch in local**
 > `git fetch origin [remote_branch_name]` </br>
-> `git branch [branch_name] FETCH_HEAD`
+> `git branch [branch_name] FETCH_HEAD` </br>
 > `git checkout [branch_name]`
 
 **Then you need to apply to merge changes, if your branch is derivated from develop you need to do**
